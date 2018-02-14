@@ -1,6 +1,6 @@
 ﻿using Microsoft.OData.Edm;
 
-namespace Microsoft.Azure.Documents.OData.Sql
+namespace Microsoft.Azure.Documents.OData.Core.Sql
 {
     /// <summary>
     /// abstract class for query formatter used in <see cref="ODataNodeToStringBuilder"/>

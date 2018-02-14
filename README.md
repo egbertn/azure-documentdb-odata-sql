@@ -1,4 +1,4 @@
-# Microsoft.Azure.Documents.OData.Sql
+# Microsoft.Azure.Documents.OData.Core.Sql
 
 Converts [OData V4](http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html) queries to [DocumentDB SQL](https://azure.microsoft.com/en-us/documentation/articles/documentdb-sql-query/) queries. 
 
@@ -64,16 +64,16 @@ concat(field,'value')        => CONCAT(c.englishName,'value')
 
 ## Installing
 
-The nuget package of this project is published on Nuget.org [Download Page](https://www.nuget.org/packages/Microsoft.Azure.Documents.OData.Sql/). To install in Visual Studio Package Manager Console, run command: 
+The nuget package of this project is published on Nuget.org [Download Page](https://www.nuget.org/packages/Microsoft.Azure.Documents.OData.Core.Sql/). To install in Visual Studio Package Manager Console, run command: 
 ```
-PM> Install-Package Microsoft.Azure.Documents.OData.Sql
+PM> Install-Package Microsoft.Azure.Documents.OData.Core.Sql
 ```
 
 ## Usage
 
 After installation, you can include the binary in your \*.cs file by
 ```
-using Microsoft.Azure.Documents.OData.Sql;
+using Microsoft.Azure.Documents.OData.Core.Sql;
 ```
 -You can find a complete set of examles in [ODataToSqlSamples.cs](https://github.com/z26zheng/azure-documentdb-odata-sql/blob/master/azure-documentdb-odata-sql-samples/ODataToSqlSamples.cs)-
 

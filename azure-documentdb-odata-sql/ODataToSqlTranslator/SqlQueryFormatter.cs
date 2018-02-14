@@ -1,7 +1,7 @@
 ﻿using Microsoft.OData.Edm;
 using System;
 
-namespace Microsoft.Azure.Documents.OData.Sql
+namespace Microsoft.Azure.Documents.OData.Core.Sql
 {
     /// <summary>
     /// string formmater for OData to Sql converter

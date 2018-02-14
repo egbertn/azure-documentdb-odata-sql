@@ -8,9 +8,9 @@ using System.Text;
 
 //using Microsoft.OData.Core.UriParser;
 //using Microsoft.OData.Core.UriParser.Semantic;
-//using Microsoft.Azure.Documents.OData.Sql;
+//using Microsoft.Azure.Documents.OData.Core.Sql;
 
-namespace Microsoft.Azure.Documents.OData.Sql
+namespace Microsoft.Azure.Documents.OData.Core.Sql
 {
     /// <summary>
     /// TranslateOptions

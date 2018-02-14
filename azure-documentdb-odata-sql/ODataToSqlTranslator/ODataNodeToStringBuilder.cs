@@ -5,7 +5,7 @@ using Microsoft.OData.Edm;
 using Microsoft.OData.UriParser;
 using Microsoft.OData;
 
-namespace Microsoft.Azure.Documents.OData.Sql
+namespace Microsoft.Azure.Documents.OData.Core.Sql
 {
     /// <summary>
     /// Build QueryNode to string Representation 

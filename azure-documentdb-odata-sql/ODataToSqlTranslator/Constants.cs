@@ -1,4 +1,4 @@
-﻿namespace Microsoft.Azure.Documents.OData.Sql
+﻿namespace Microsoft.Azure.Documents.OData.Core.Sql
 {
     /// <summary>
     /// Provides constant string/char values

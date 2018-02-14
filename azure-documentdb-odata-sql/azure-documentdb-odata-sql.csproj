@@ -5,10 +5,10 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{D59035E3-C274-4CFF-B835-F79D4FC0411C}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>Microsoft.Azure.Documents.OData.Sql</RootNamespace>
-    <AssemblyName>Microsoft.Azure.Documents.OData.Sql</AssemblyName>
+    <RootNamespace>Microsoft.Azure.Documents.OData.Core.Sql</RootNamespace>
+    <AssemblyName>Microsoft.Azure.Documents.OData.Core.Sql</AssemblyName>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <PackageId>ADCCure.Azure.Documents.OData.Sql</PackageId>
+    <PackageId>ADCCure.Azure.Documents.ODataCore.Sql</PackageId>
     <Version>3.0</Version>
     <Description>Currently it supports below query mappings:
   primitive:
@@ -50,6 +50,7 @@
     <Copyright>MIT</Copyright>
     <PackageProjectUrl>https://github.com/egbertn/azure-documentdb-odata-sql</PackageProjectUrl>
     <RepositoryUrl>https://github.com/egbertn/azure-documentdb-odata-sql</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
