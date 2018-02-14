@@ -20,7 +20,7 @@ The above query will then be translated to DocumentDB SQL:
 ```
 SELECT TOP 5 c.revenue FROM c WHERE CONTAINS(c.englishName,'Limited') ORDER BY c.countryCode DESC 
 ```
-Note: requires  Microsoft.AspNet.OData 6.1.0.0 and .NET Framework 4.62
+Note: requires  Microsoft.AspNetCore.OData 7.0.0.1-beta1 and .NET Core 2.0
 
 ### Supported OData to DocumentDB SQL mappings:
 
@@ -36,7 +36,7 @@ Note: requires  Microsoft.AspNet.OData 6.1.0.0 and .NET Framework 4.62
 ### Built-in Operators
 Items/any(d:d/Quantity gt 100)  => JOIN a in c.Items WHERE a.Quantity > 100
 Note: If more objects in 'Items' qualify for the expression, duplicate results may result. e.g.
-SELECT  value c FROM c
+SELECT  VALUE c FROM c
 JOIN a IN c.sub
 WHERE a.v=false  might return c twice, while c exists once, because the join in 'sub' has two hits
 
