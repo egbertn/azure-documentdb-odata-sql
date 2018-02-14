@@ -1,9 +1,10 @@
-﻿using Microsoft.Azure.Documents.Client;
+﻿
+using Microsoft.AspNet.OData.Query;
 using Microsoft.OData.UriParser;
 using System;
 using System.Linq;
 using System.Text;
-using System.Web.OData.Query;
+
 
 //using Microsoft.OData.Core.UriParser;
 //using Microsoft.OData.Core.UriParser.Semantic;
